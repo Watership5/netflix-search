@@ -32,6 +32,7 @@
     }
   }
 </script>
+<!-- main html -->
 <template>
   <Suspense>
     <template #default>
