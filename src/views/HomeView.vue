@@ -26,6 +26,7 @@
       console.log(response)
       data.value = response.data.titles;
       querye.value = ''
+      // err handling
     } catch (error) {
       console.error(error);
     }
