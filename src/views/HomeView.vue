@@ -3,16 +3,6 @@
   import axios from 'axios';
   const querye =  ref('')
   const data = ref([]);
-  // console.log(querye);
-  // (async () => {
-  //   try {
-  //     const response = await axios.request(options);
-  //     console.log(response)
-  //     data.value = response.data.titles;
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // })();
   async function getTitles() {
     const options = {
     method: 'GET',
