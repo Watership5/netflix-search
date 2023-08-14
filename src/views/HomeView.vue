@@ -4,6 +4,7 @@
   import axios from 'axios';
   const querye =  ref('')
   const data = ref([]);
+  // func to call the api
   async function getTitles() {
     const options = {
     method: 'GET',
