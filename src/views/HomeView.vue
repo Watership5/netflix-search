@@ -37,6 +37,7 @@
   <Suspense>
     <template #default>
       <main>
+        <!-- bases for the main application -->
         <input v-model="querye" type="text"/>
         <h1 v-for="titlea in data" :key="titlea.id">
           {{ titlea.jawSummary.title }}
