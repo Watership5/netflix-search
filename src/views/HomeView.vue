@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  // importing dependencies
   import { ref } from 'vue';
   import axios from 'axios';
   const querye =  ref('')
